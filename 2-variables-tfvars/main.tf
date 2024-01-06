@@ -14,7 +14,6 @@ provider "aws" {
     tags = {
       managed-by = "terraform"
       repo       = "terraform-for-beginners"
-      folder     = "1-terraform-provider-block"
     }
   }
 }

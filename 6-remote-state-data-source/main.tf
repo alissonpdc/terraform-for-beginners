@@ -17,3 +17,13 @@ provider "aws" {
     }
   }
 }
+
+# Pull outputs from previous topic "5-remote-state"
+data "terraform_remote_state" "data_source_remote_state" {
+  backend = "s3"
+  config = {
+    bucket = "terraform-for-beginners-remote-state-bucket"
+    key    = "5-remote-state/terraform.tfstate"
+    region = "us-east-1"
+  }
+}

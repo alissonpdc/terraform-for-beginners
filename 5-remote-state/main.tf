@@ -6,6 +6,13 @@ terraform {
       version = "5.31.0"
     }
   }
+
+  backend "s3" {
+    bucket = "terraform-for-beginners-remote-state-bucket"
+    key    = "5-remote-state/terraform.tfstate"
+    region = "us-east-1"
+  }
+
 }
 
 provider "aws" {

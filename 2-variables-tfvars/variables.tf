@@ -4,6 +4,12 @@ variable "default_tag" {
   type        = string
 }
 
+variable "envvar_tag" {
+  description = "tag value on the environment variable"
+  default     = "will-be-overwritten"
+  type        = string
+}
+
 variable "tfvars_tag" {
   description = "tag value on the terraform.tfvars file"
   default     = "will-be-overwritten"
@@ -12,6 +18,12 @@ variable "tfvars_tag" {
 
 variable "auto_tfvars_tag" {
   description = "tag value on the terraform.auto.tfvars file"
+  default     = "will-be-overwritten"
+  type        = string
+}
+
+variable "file_tag" {
+  description = "tag value on the var file"
   default     = "will-be-overwritten"
   type        = string
 }
