@@ -35,3 +35,6 @@ terraform.rc
 
 # Lock HCL
 .terraform.lock.hcl
+
+# EC2 key pair
+ec2-key*
