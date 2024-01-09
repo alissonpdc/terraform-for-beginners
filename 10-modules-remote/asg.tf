@@ -17,5 +17,9 @@ module "asg" {
   image_id      = "ami-0005e0cfe09cc9050"
   instance_type = "t2.micro"
 
-  availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+  availability_zones = [
+    "us-east-1a",
+    "us-east-1b",
+    "us-east-1c"
+  ]
 }
