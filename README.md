@@ -1,5 +1,5 @@
 # terraform-for-beginners
-Terraform projects implementing incremental small features for beginners in Infra as Code
+Educational Terraform projects implementing incremental small features for beginners in Infra as Code
 * 1-terraform-provider-block
 * 2-variables-tfvars
 * 3-local-values
@@ -10,6 +10,11 @@ Terraform projects implementing incremental small features for beginners in Infr
 * 8-provisioners
 * 9-modules-local
 * 10-modules-remote
+* 11-depends-on
+* 12-count
+* 13-for-each
+* 14-prviders
+* 15-lifecycle
 
 ## Terraform Cheat Sheet
 ### terraform version
