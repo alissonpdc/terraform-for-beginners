@@ -8,9 +8,9 @@ resource "time_sleep" "sleep_30s" {
     aws_s3_bucket.first_bucket 
   ]
 
-  # Create: First Bucket => wait 30s => Second Bucket
-  # Destroy: First Bucket => wait 60s => Second Bucket
+  # Create: First Bucket => wait 30s => Second Bucket  
   create_duration = "30s"
+  # Destroy: First Bucket => wait 60s => Second Bucket
   destroy_duration = "60s"
 }
 
