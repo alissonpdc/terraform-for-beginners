@@ -1,5 +1,5 @@
 # terraform-for-beginners
-Educational Terraform projects implementing each important small feature for beginners in Infra as Code
+Educational Terraform small projects implementing each important feature for beginners in Infra as Code
 
 
 ## Intro
@@ -7,17 +7,7 @@ In the rapidly changing world of DevOps and cloud computing, Terraform has becom
 Essentially, Terraform is an open-source Infrastructure as Code (IaC) tool created by HashiCorp.
 What makes Terraform unique is its capability to enable developers and operations teams to describe and manage infrastructure configurations through code.
 This approach to setting up infrastructure not only removes manual errors and the possibility of human mistakes but also encourages teamwork, version control, and consistency across various cloud providers.
-
-
-In today's context, Terraform is exceptionally important as organizations increasingly move towards cloud environments and adopt hybrid and multi-cloud strategies.
-The intricacy of modern infrastructure requires a scalable and automated solution, and that's precisely what Terraform offers.
-Its flexibility allows it to seamlessly work with popular cloud providers like AWS, Azure, and Google Cloud, allowing users to effortlessly create, modify, and remove infrastructure resources.
-This agility is crucial in a rapidly moving development and deployment cycle, where quick and reliable provisioning of resources is vital for success.
-
-Furthermore, Terraform plays a crucial role in enabling infrastructure flexibility, scalability, and maintainability.
-Its code-centric approach not only simplifies the provisioning process but also ensures that infrastructure is treated as a versioned artifact.
-This makes it easy to replicate, modify, and share infrastructure configurations, promoting a collaborative and efficient DevOps culture.
-As organizations aim for increased automation and efficiency in their operations, Terraform stands out as an essential tool for managing the complexities of modern infrastructure with simplicity and precision.
+Terraform plays a crucial role in enabling infrastructure flexibility, scalability, and maintainability.
 
 
 ## Features List
